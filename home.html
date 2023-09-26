@@ -5,29 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/home.css">
         <title>Freeze Coin</title>
-        <style>
-            /*Footer*/
-            body{
-                background-color: #155C6B;
-            }
-            footer{
-                width: 100%; height: 554px; left: 0px; top: 1654px; position: absolute; background: #454545
-            }
-            .LogoFooter{
-                width: 400px; height: 75px; left: 122px; top: 1665px; position: absolute; color: white; font-size: 50px; font-family: Koulen; font-weight: 400; word-wrap: break-word;
-            }
-
-            .SepararFooter{
-                width: 332px; height: 0px; left: 689.50px; top: 2081px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border: 1px black solid;
-            }
-            .SubTituloFooterA{
-                left: 191px; top: 1759px; position: absolute; color: white; font-size: 35px; font-family: Kokoro; font-weight: 400; word-wrap: break-word;
-            }
-            .SubTituloFooterB{
-                width: 531px; height: 73px; left: 721px; top: 1730px; position: absolute; color: white; font-size: 25px; font-family: Kokoro; font-weight: 400; word-wrap: break-word;
-            }
-            
-        </style>
     </head>
     <body>
         <header>
@@ -68,46 +45,34 @@
             <div class="TextoEquipeQuatro">Sr. Visão de Tudo.<br/>Função: Debug.<br/>Habilidade: Visual.</div>
         </section>
         <footer>
-            
-
+            <div class="fundoFooter"></div>
             <div class="LogoFooter">Freezy Coin</div>
-            <div class="SubTituloFooterA">Rede social</div>
-
-            <img class="" style="width: 36px; height: 36px; left: 197px; top: 1828px; position: absolute" src="./image/Twitter.png">
-            <div class="" style="left: 251px; top: 1827px; position: absolute; color: white; font-size: 25px; font-family: Kokoro; font-weight: 400; word-wrap: break-word">@_freezycoin</div>
-            <img class="" style="width: 36px; height: 36px; left: 197px; top: 1900px; position: absolute"src="./image/instagram.png">
-            <div class="" style="left: 251px; top: 2039px; position: absolute; color: white; font-size: 25px; font-family: Kokoro; font-weight: 400; word-wrap: break-word">@_freezycoin</div>
-            <img class="" style="width: 36px; height: 36px; left: 197px; top: 1972px; position: absolute"src="./image/facebook.png">
-            <div class="" style="left: 251px; top: 1970px; position: absolute; color: white; font-size: 25px; font-family: Kokoro; font-weight: 400; word-wrap: break-word">@_freezycoin</div>
-            <img class="" style="width: 36px; height: 36px; left: 197px; top: 2044px; position: absolute" src="./image/Linkedin.png">
-            <div class="" style="left: 251px; top: 1904px; position: absolute; color: white; font-size: 25px; font-family: Kokoro; font-weight: 400; word-wrap: break-word">@_freezycoin</div>
-
-
+            <div class="formatoA">
+                <div class="SubTituloFooterA">Rede social</div>
+                <img class="ImgTwitter" alt="ImgTwitter" src="./image/Twitter.png">
+                <div class="TituloTwitter">@_freezycoin</div>
+                <img class="ImgInstagram" alt="ImgInstagram" src="./image/instagram.png">
+                <div class="TituloInstagram">@_freezycoin</div>
+                <img class="ImgFacebook" alt="ImgFacebook" src="./image/facebook.png">
+                <div class="TituloFacebook">@_freezycoin</div>
+                <img class="ImgLinkedin" alt="ImgLinkedin" src="./image/Linkedin.png">
+                <div class="TituloLinkedin">@_freezycoin</div>
+            </div>
             <div class="SepararFooter"></div>
-
-
-            <div class="" style="width: 320px; left: 720px; top: 1673px; position: absolute; color: white; font-size: 35px; font-family: Kokoro; font-weight: 400; word-wrap: break-word">Entre em contato</div>
-            <div class="" style="width: 320px; height: 47px; padding-top: 12px; padding-bottom: 12px; padding-left: 16px; padding-right: 15px; left: 1062px; top: 1823px; position: absolute; background: #E8E8E8; border-radius: 8px; border: 1px black solid; justify-content: flex-start; align-items: center; gap: 56px; display: inline-flex">
-                <div style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                    <div style="color: #949494; font-size: 25px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word">Telefone :</div>
-                </div>
+            <div class="formatoB">
+                <div class="SubTituloFooterB">Entre em contato</div>
+                <div class="SubFooterB">Para reclamar ou deixar sua opinião deixe aqui seus comentários:</div>
+                <form>
+                    <input class="FootertxtEmail" type="email" id="email" name="email" placeholder="E-mail:">
+                    <input class="FootertxtTelefone" type="number" id="Telefone" name="Telefone" pattern="[0-9]{(3)} [0-9]{5}-[0-9]{4}" placeholder="Telefone:(000) 00000-0000">
+                    <textarea class="FooterTxt" type="text" name="textarea" rows="50" cols="50" maxlength="250" placeholder="Mensagem:"></textarea>
+                    <input type="button" name="Enviar" value="Enviar" class="BntEnviar">
+                </form>
             </div>
-            <div style="width: 320px; height: 47px; padding-top: 12px; padding-bottom: 12px; padding-left: 16px; left: 720px; top: 1823px; position: absolute; background: #E8E8E8; border-radius: 8px; border: 1px black solid; justify-content: flex-start; align-items: center; gap: 56px; display: inline-flex">
-                <div style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                    <div style="color: #949494; font-size: 25px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word">E-mail :</div>
-                </div>
-            </div>
-
-
-            <div class="SubTituloFooterB">Para reclamar ou deixar sua opinião deixe aqui seus comentários:</div>
-
-
-            <div style="width: 690px; height: 211px; left: 720px; top: 1907px; position: absolute; background: #E8E8E8; border-radius: 8px; border: 1px black solid; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex">
-                <div style="flex: 1 1 0; height: 24px; justify-content: flex-start; align-items: center; gap: 8px; display: flex">
-                    <div style="color: #949494; font-size: 25px; font-family: Montserrat; font-weight: 400; line-height: 24px; word-wrap: break-word">Mensagem :</div>
-                </div>
-            </div>
-            <div style="width: 100%; height: 20px; left: 0px; top: 2208px; position: absolute; background: black"></div>
+            <div class="fimFooter"></div>
         </footer>
     </body>
 </html>
+
+            
+            
