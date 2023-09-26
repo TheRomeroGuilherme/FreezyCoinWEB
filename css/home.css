@@ -286,7 +286,7 @@
 .TextoEquipeDois{
     width: 257px; 
     height: 134px; 
-    left: 956px; 
+    left: 939px; 
     top: 1220px; 
     position: absolute; 
     color: black; 
@@ -318,4 +318,72 @@
     font-family: Kokoro; 
     font-weight: 400; 
     word-wrap: break-word;
+}
+.tituloVendas{
+    left: 544px; 
+    top: 742px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 16px; 
+    word-wrap: break-word;
+}
+.SubVendasDois{
+    width: 613px;
+    height: 107px; 
+    left: 548px; 
+    top: 790px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.tituloValor{
+    left: 548px; 
+    top: 932px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+.VerMais{
+    left: 581px; 
+    top: 1014px; 
+    position: absolute; 
+    color: #4F4F4F; 
+    font-size: 20px; 
+    font-family: Adamina; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.linhaHorizontal{
+    width: 1015.04px; 
+    height: 0px; 
+    left: 203.98px; 
+    top: 1058.50px; 
+    position: absolute; 
+    border: 1px black solid;
+}.TituloEquipe{
+    width: 346px; 
+    left: 548px; 
+    top: 1105px; 
+    position: absolute; 
+    color: black; 
+    font-size: 45px; 
+    font-family: Kokoro; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+.Apresentacao{
+    position: absolute;
+    left: 210px;
+    width: 1000px;
 }
